@@ -1,0 +1,29 @@
+.navigation {
+
+}
+
+.navigation__links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navigation__link {
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  letter-spacing: 0;
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+.navigation__links > li:nth-child(4) > a {
+  margin-right: 0;
+}
+
+.navigation__link:hover {
+  /*opacity: 1;*/
+  color: #54ca95;
+}
