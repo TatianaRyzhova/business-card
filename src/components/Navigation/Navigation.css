@@ -24,6 +24,6 @@
 }
 
 .navigation__link:hover {
-  /*opacity: 1;*/
+  opacity: 1;
   color: #54ca95;
 }
