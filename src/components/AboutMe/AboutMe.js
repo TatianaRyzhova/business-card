@@ -4,7 +4,7 @@ import cv from "../../files/tatiana_ryzhova_cv.pdf"
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about-me">
       <div className="about-me__container">
 
         <div>

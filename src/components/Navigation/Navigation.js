@@ -5,7 +5,7 @@ function Navigation() {
     <nav className='navigation'>
       <ul className='navigation__links'>
         <li>
-          <a href="#" className="navigation__link" >About Me</a>
+          <a href="#about-me" className="navigation__link" >About Me</a>
         </li>
         <li>
           <a href="#" className="navigation__link" >Resume</a>
