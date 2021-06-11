@@ -8,7 +8,7 @@ function Navigation() {
           <a href="#about-me" className="navigation__link" >About Me</a>
         </li>
         <li>
-          <a href="#" className="navigation__link" >Resume</a>
+          <a href="#resume" className="navigation__link" >Resume</a>
         </li>
         <li>
           <a href="#" className="navigation__link" >Portfolio</a>

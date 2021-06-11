@@ -1,0 +1,65 @@
+.resume-card-list {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 60px;
+  grid-row-gap: 32px;
+}
+
+.resume-card {
+  border-radius: 20px;
+  border: 2px solid #eee;
+  padding: 20px;
+  box-shadow: 5px 10px rgba(238, 238, 238, 0.6);
+  transition: 0.5s ease-in-out;
+}
+
+.resume-card:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.resume-card__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.resume-card__period {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 0 -40px;
+  color: #666;
+  background-color: #fff;
+  padding: 0 10px;
+  line-height: 23px;
+  border: 2px solid #54ca95;
+  border-radius: 30px;
+}
+
+.resume-card__place {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #666;
+  opacity: 0.7;
+}
+
+.resume-card__speciality {
+  color: #333;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  margin: 10px 0 7px;
+}
+
+.resume-card__description {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.75em;
+}
