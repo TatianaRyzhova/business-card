@@ -2,7 +2,6 @@ import React from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import SectionSubtitle from "../SectionSubtitle/SectionSubtitle";
 import ResumeCard from "../ResumeCard/ResumeCard";
-import ResumeCertificate from "../ResumeCertificate/ResumeCertificate";
 
 function Resume() {
   return (
@@ -50,14 +49,6 @@ function Resume() {
           />
         </div>
       </div>
-
-      <div className="resume__content">
-        <SectionSubtitle sectionSubtitle="Certificates"/>
-        <div className="resume-certificate-list">
-          <ResumeCertificate/>
-        </div>
-      </div>
-
 
     </section>
   )

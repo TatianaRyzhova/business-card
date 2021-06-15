@@ -11,7 +11,7 @@ function Navigation() {
           <a href="#resume" className="navigation__link" >Resume</a>
         </li>
         <li>
-          <a href="#" className="navigation__link" >Portfolio</a>
+          <a href="#portfolio" className="navigation__link" >Portfolio</a>
         </li>
         <li>
           <a href="#" className="navigation__link" >Contact</a>
