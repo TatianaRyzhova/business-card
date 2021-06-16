@@ -2,7 +2,10 @@ import React from "react";
 
 function SectionSubtitle(props) {
   return (
-    <h2 className="section__subtitle">{props.sectionSubtitle}</h2>
+    <div data-aos="fade-right">
+      <h2 className="section__subtitle">{props.sectionSubtitle}</h2>
+    </div>
+
   )
 }
 

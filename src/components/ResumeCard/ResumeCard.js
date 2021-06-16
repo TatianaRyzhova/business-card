@@ -2,7 +2,7 @@ import React from "react";
 
 function ResumeCard(props) {
   return (
-    <div className='resume-card'>
+    <div className='resume-card' data-aos="zoom-in">
 
       <div className='resume-card__title'>
         <h5 className='resume-card__period'>{props.period}</h5>
