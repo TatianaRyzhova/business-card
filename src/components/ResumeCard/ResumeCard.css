@@ -12,7 +12,7 @@
   border-radius: 20px;
   border: 2px solid #eee;
   padding: 20px;
-  box-shadow: 5px 10px rgba(238, 238, 238, 0.6);
+  box-shadow: 3px 5px rgba(238, 238, 238, 0.6);
   transition: 0.5s ease-in-out;
 }
 
