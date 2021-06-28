@@ -34,6 +34,15 @@ function Resume() {
             description="I was born and live in Saratov, graduated from the Faculty of Economics at SSU.
         I have a wife and daughter. I love listening to music, and I'm also fond of running."
           />
+
+          <ResumeCard
+            period="2014"
+            place="Core Partners Soft"
+            speciality="QA Automation Engineer"
+            description="I was born and live in Saratov, graduated from the Faculty of Economics at SSU.
+        I have a wife and daughter. I love listening to music, and I'm also fond of running."
+          />
+
         </div>
       </div>
 
