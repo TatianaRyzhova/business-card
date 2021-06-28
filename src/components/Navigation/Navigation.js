@@ -14,7 +14,7 @@ function Navigation() {
           <a href="#portfolio" className="navigation__link" >Portfolio</a>
         </li>
         <li>
-          <a href="#" className="navigation__link" >Contact</a>
+          <a href="#contactForm" className="navigation__link" >Contact</a>
         </li>
       </ul>
     </nav>

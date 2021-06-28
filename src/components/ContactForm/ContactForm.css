@@ -1,0 +1,133 @@
+.contact {
+  background-color: #54ca95;
+  border-radius: 40px 40px 0 0 ;
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 60px auto 0;
+  padding-bottom: 100px;
+}
+
+.contact__information {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px 50px 30px;
+  position: relative;
+}
+
+.contact__information ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact__information ul>li {
+  margin-bottom: 20px;
+}
+
+.contact__text {
+  color: #333333;
+  margin: 0;
+}
+
+.contact__text span {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.contact__name {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.contact__text_name {
+  color: #333333;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+}
+.contact__text_speciality {
+  font-size: 15px;
+  color: #666666;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact__form {
+  padding: 30px;
+  background-color: white;
+  border: 1px #eee solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__button {
+  display: inline-block;
+  padding: .8em 2.1em;
+  margin: 30px 0 0 0;
+  font-size: 1em;
+  line-height: 1.2;
+  border: 2px solid #d5d5d5;
+  color: #666;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 10px 10px -8px #d5d5d5;
+  width: 390px;
+}
+
+.form__button:hover {
+  color: #333;
+  background-color: #d5d5d5;
+}
+
+.form__button_disabled {
+  border: 2px solid rgba(213, 213, 213, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+  background: #d5d5d5;
+  pointer-events: none;
+  cursor: none;
+}
+
+.contact__social-links {
+  margin-top: 30px;
+}
+
+.contact__social-link {
+  margin-right: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.contact__social-link:hover {
+  opacity: .7;
+}
+
+.contact__social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-right {
+  width: 150px;
+  height: 150px;
+  animation: moveRightAndBack .7s linear infinite;
+  position: absolute;
+  top: 350px;
+}
+
+@keyframes moveRightAndBack {
+  0%, 100% {
+    right: 0;
+  }
+  50% {
+    right: 30px;
+  }
+}

@@ -5,6 +5,7 @@
   padding-top: 70px;
   margin: 0 auto;
   padding-bottom: 80px;
+  z-index: 1;
 }
 
 .about-me__personal-photo {
@@ -19,6 +20,7 @@
 
 .about-me__information {
   margin-left: 90px;
+  z-index: 100;
 }
 
 .about-me__specialty {
@@ -93,4 +95,22 @@
 .about-me__link_contact:hover {
   color: #333;
   background-color: #d5d5d5;
+}
+
+.arrow-down {
+  width: 350px;
+  height: 350px;
+  /*animation: moveRightAndBack .7s linear infinite;*/
+  position: absolute;
+  top: 360px;
+  left: -40px;
+}
+
+@keyframes moveRightAndBack {
+  0%, 100% {
+    right: 0;
+  }
+  50% {
+    right: 30px;
+  }
 }

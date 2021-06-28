@@ -1,12 +1,13 @@
 import React from "react";
 import personalPicture from "../../images/personal_picture.png"
 import cv from "../../files/tatiana_ryzhova_cv.pdf"
+import arrowPic from "../../images/arrow-down.gif"
 
 function AboutMe() {
   return (
     <section className="about-me" id="about-me">
+      <img src={arrowPic} alt="arrow picture" className="arrow-down"/>
       <div className="about-me__container">
-
         <div>
           <img src={personalPicture} alt="personal picture" className="about-me__personal-photo"/>
         </div>
@@ -23,12 +24,13 @@ function AboutMe() {
 
           <div className="about-me__links">
             <a href={cv} className="about-me__link about-me__link_cv" target="_blank" rel="noreferrer">Download CV</a>
-            <a href="#" className="about-me__link about-me__link_contact">Contact</a>
+            <a href="#contactForm" className="about-me__link about-me__link_contact">Contact</a>
           </div>
 
         </div>
 
       </div>
+      {/*<div className="triangle rotation"></div>*/}
     </section>
   )
 }
