@@ -97,3 +97,9 @@
     right: -30px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .contact__content {
+    padding-bottom: 60px;
+  }
+}

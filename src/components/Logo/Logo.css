@@ -27,3 +27,9 @@
   color: #000;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1440px) {
+  .logo {
+    margin-left: 40px;
+  }
+}
