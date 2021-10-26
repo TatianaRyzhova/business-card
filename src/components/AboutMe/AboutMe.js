@@ -13,7 +13,7 @@ function AboutMe() {
         </div>
 
         <div className="about-me__information">
-          <p className="about-me__specialty">Software Engineer</p>
+          <p className="about-me__specialty">SOFTWARE ENGINEER</p>
           <h1 className="about-me__name">Tatiana Ryzhova</h1>
           <p className="about-me__description">I was born and live in Saratov, graduated from the Faculty of Economics at SSU.
             I have a wife
@@ -23,14 +23,13 @@ function AboutMe() {
           </p>
 
           <div className="about-me__links">
-            <a href={cv} className="about-me__link about-me__link_cv" target="_blank" rel="noreferrer">Download CV</a>
-            <a href="#contactForm" className="about-me__link about-me__link_contact">Contact</a>
+            <a href={cv} className="about-me__link about-me__link_cv" target="_blank" rel="noreferrer">DOWNLOAD CV</a>
+            <a href="#contactForm" className="about-me__link about-me__link_contact">CONTACT</a>
           </div>
 
         </div>
 
       </div>
-      {/*<div className="triangle rotation"></div>*/}
     </section>
   )
 }

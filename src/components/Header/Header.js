@@ -6,10 +6,8 @@ function Header() {
   return (
     <header>
       <div className='header__container'>
-
         <Logo/>
         <Navigation/>
-
       </div>
     </header>
   )

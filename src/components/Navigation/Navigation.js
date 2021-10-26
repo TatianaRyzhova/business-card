@@ -8,12 +8,6 @@ function Navigation() {
           <a href="#about-me" className="navigation__link" >About Me</a>
         </li>
         <li>
-          <a href="#resume" className="navigation__link" >Resume</a>
-        </li>
-        <li>
-          <a href="#portfolio" className="navigation__link" >Portfolio</a>
-        </li>
-        <li>
           <a href="#contactForm" className="navigation__link" >Contact</a>
         </li>
       </ul>

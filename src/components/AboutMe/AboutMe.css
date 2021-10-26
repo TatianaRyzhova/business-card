@@ -13,8 +13,6 @@
   height: 400px;
   object-fit: contain;
   background-color: #fff;
-  border-radius: 1000px;
-  border: 18px solid #fff;
   overflow: hidden;
 }
 
@@ -25,9 +23,9 @@
 
 .about-me__specialty {
   font-size: 16px;
-  color: #aaa;
-  font-weight: 300;
+  color: #000;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .about-me__name {
@@ -35,20 +33,16 @@
   line-height: 56px;
   margin-top: 0;
   margin-bottom: 40px;
-  color: #333333;
+  color: #000;
 }
 
 .about-me__description {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.75em;
-  color: #666;
+  color: #000;
   margin-bottom: 50px;
-}
-
-.about-me__links {
-
 }
 
 .about-me__link {
@@ -62,13 +56,12 @@
   margin-right: .95em;
   font-size: 1em;
   line-height: 1.2;
-  border: 2px solid #54ca95;
+  border: 5px solid #000;
   color: #222;
   text-shadow: none;
-  background-color: #fff;
-  border-radius: 30px;
+  background-color: #ca5be8;
   transition: 0.5s ease-in-out;
-  box-shadow: 0 10px 10px -8px #9a9696;
+  font-weight: bold;
 }
 
 .about-me__link_cv:hover {
@@ -83,24 +76,22 @@
   margin-right: .25em;
   font-size: 1em;
   line-height: 1.2;
-  border: 2px solid #d5d5d5;
-  color: #666;
+  border: 5px solid #000;
+  color: #000;
   text-shadow: none;
-  background-color: #fff;
-  border-radius: 30px;
+  background-color: #ca5be8;
   transition: 0.5s ease-in-out;
-  box-shadow: 0 10px 10px -8px #d5d5d5;
+  font-weight: bold;
 }
 
 .about-me__link_contact:hover {
-  color: #333;
-  background-color: #d5d5d5;
+  color: #000;
+  background-color: #f0ff00;
 }
 
 .arrow-down {
   width: 350px;
   height: 350px;
-  /*animation: moveRightAndBack .7s linear infinite;*/
   position: absolute;
   top: 360px;
   left: -40px;

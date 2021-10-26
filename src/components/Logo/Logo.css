@@ -1,16 +1,12 @@
-.logo {
-
-}
-
 .logo__symbol {
   float: left;
   width: 44px;
   height: 44px;
   line-height: 48px;
-  background-color: #54ca95;
+  background-color: #f0ff00;
   border-radius: 100px;
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 28px;
   font-weight: 800;
   margin-right: 8px;
@@ -21,13 +17,13 @@
   float: left;
   line-height: 50px;
   font-size: 20px;
-  color: #222;
+  color: #000;
   font-weight: 600;
 }
 
 .logo__text>span {
   line-height: 50px;
   font-size: 20px;
-  color: #222;
+  color: #000;
   font-weight: 400;
 }
