@@ -8,10 +8,10 @@ const data = require("../../data.json")
 function AboutMe() {
   return (
     <section className="about-me" id="about-me">
-      <img src={arrowPic} alt="arrow picture" className="arrow-down"/>
+      <img src={arrowPic} alt="arrow" className="arrow-down"/>
       <div className="about-me__container">
         <div>
-          <img src={personalPicture} alt="personal picture" className="about-me__personal-photo"/>
+          <img src={personalPicture} alt="personal" className="about-me__personal-photo"/>
         </div>
 
         <div className="about-me__information">
