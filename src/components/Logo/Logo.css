@@ -33,3 +33,18 @@
     margin-left: 40px;
   }
 }
+
+@media screen and (max-width: 425px) {
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .logo__symbol {
+    margin: 0;
+  }
+
+  .logo__text {
+    display: none;
+  }
+}

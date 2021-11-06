@@ -103,3 +103,37 @@
     padding-bottom: 60px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .arrow-right {
+    display: none;
+  }
+
+  .contact__content {
+    margin: 20px auto 0;
+    padding-bottom: 50px;
+  }
+
+  .contact__information {
+    margin: auto;
+    text-align: center;
+  }
+
+  .contact__name {
+    padding-bottom: 0;
+  }
+
+  .contact__text_name {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .contact__text_speciality {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 16px auto;
+  }
+}
