@@ -29,7 +29,7 @@
   color: #f0ff00;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .navigation__link {
     margin-right: 20px;
   }

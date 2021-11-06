@@ -34,8 +34,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-
+@media screen and (max-width: 550px) {
   .logo {
     margin-left: 20px;
   }
