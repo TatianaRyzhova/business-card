@@ -13,27 +13,6 @@
   margin-top: 4px;
 }
 
-.logo__text {
-  float: left;
-  line-height: 50px;
-  font-size: 20px;
-  color: #000;
-  font-weight: 600;
-}
-
-.logo__text>span {
-  line-height: 50px;
-  font-size: 20px;
-  color: #000;
-  font-weight: 400;
-}
-
-@media screen and (max-width: 1440px) {
-  .logo {
-    margin-left: 40px;
-  }
-}
-
 @media screen and (max-width: 550px) {
   .logo {
     margin-left: 20px;
@@ -41,9 +20,5 @@
 
   .logo__symbol {
     margin: 0;
-  }
-
-  .logo__text {
-    display: none;
   }
 }
