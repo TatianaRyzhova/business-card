@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div className='header__container'>
         <Logo/>
-        <Navigation/>
+        {/*<Navigation/>*/}
       </div>
     </header>
   )

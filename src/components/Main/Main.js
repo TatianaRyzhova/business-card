@@ -12,7 +12,7 @@ function Main() {
   return (
     <main className="content">
       <AboutMe/>
-      <ContactForm/>
+      {/*<ContactForm/>*/}
     </main>
   )
 }

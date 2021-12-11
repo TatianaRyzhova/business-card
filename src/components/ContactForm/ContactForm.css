@@ -83,18 +83,17 @@
   height: 150px;
   animation: moveRightAndBack .7s linear infinite;
   position: absolute;
-  top: 280px;
-  right: -80px;
+  top: 330px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
 @keyframes moveRightAndBack {
   0%, 100% {
-    right: -50px;
+    left: -50px;
   }
   50% {
-    right: -30px;
+    left: -30px;
   }
 }
 

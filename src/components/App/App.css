@@ -3,7 +3,6 @@
   font-family: 'Inter', Arial, sans-serif;
   position: relative;
   width: 100%;
-  background-color: #ca5be8;
 }
 
 body {
@@ -16,4 +15,8 @@ a {
 
 li {
   list-style: none;
+}
+
+body {
+  background-color: #ca5be8;
 }
