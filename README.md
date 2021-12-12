@@ -1,6 +1,6 @@
 # Personal Business Card
 
-:rocket: [Project Remote Server Link](https://tatianaryzhova.github.io/resume/)
+:rocket: [Project Remote Link](https://tatianaryzhova.github.io/business-card/)
 
 ## :pencil2: Description:
 The project represents the simple personal business card
