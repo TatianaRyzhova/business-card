@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.2499418a.chunk.css",
-    "main.js": "./static/js/main.10c32cb3.chunk.js",
-    "main.js.map": "./static/js/main.10c32cb3.chunk.js.map",
+    "main.js": "./static/js/main.d6202cfd.chunk.js",
+    "main.js.map": "./static/js/main.d6202cfd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e8d4c79a.js",
     "runtime-main.js.map": "./static/js/runtime-main.e8d4c79a.js.map",
     "static/js/2.4195a3d9.chunk.js": "./static/js/2.4195a3d9.chunk.js",
@@ -14,12 +14,13 @@
     "static/js/2.4195a3d9.chunk.js.LICENSE.txt": "./static/js/2.4195a3d9.chunk.js.LICENSE.txt",
     "static/media/github_icon.c57108f5.svg": "./static/media/github_icon.c57108f5.svg",
     "static/media/linkedin_icon.a6993c12.svg": "./static/media/linkedin_icon.a6993c12.svg",
-    "static/media/telegram.1b10e322.png": "./static/media/telegram.1b10e322.png"
+    "static/media/telegram.1b10e322.png": "./static/media/telegram.1b10e322.png",
+    "static/media/twitter.adbe7e24.png": "./static/media/twitter.adbe7e24.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e8d4c79a.js",
     "static/js/2.4195a3d9.chunk.js",
     "static/css/main.2499418a.chunk.css",
-    "static/js/main.10c32cb3.chunk.js"
+    "static/js/main.d6202cfd.chunk.js"
   ]
 }
