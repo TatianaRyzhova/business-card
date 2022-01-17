@@ -2,6 +2,7 @@ import React from "react";
 import linkedinIcon from "../../images/linkedin_icon.svg";
 import githubIcon from "../../images/github_icon.svg";
 import telegramIcon from "../../images/telegram.png";
+import twitterIcon from "../../images/twitter.png";
 
 const data = require("../../data.json")
 
@@ -26,6 +27,10 @@ function AboutMe() {
           <a href={data.github} target="_blank" rel="noreferrer"
              className="contact__social-link">
             <img src={githubIcon} alt="github icon" className="contact__social-icon"/>
+          </a>
+          <a href={data.twitter} target="_blank" rel="noreferrer"
+             className="contact__social-link">
+            <img src={twitterIcon} alt="telegram icon" className="contact__social-icon"/>
           </a>
           <a href={data.telegram} target="_blank" rel="noreferrer"
              className="contact__social-link">
